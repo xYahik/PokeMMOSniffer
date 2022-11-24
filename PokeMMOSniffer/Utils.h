@@ -8,7 +8,6 @@ struct Packet {
     DWORD unknown3;
     WORD unknown4;
     BYTE packet_opcode;
-    BYTE packet_sub_opcode;
     DWORD packet_length;
-    unsigned char test[255];
+    unsigned char packet[255];
 };
